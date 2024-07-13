@@ -1,0 +1,16 @@
+솔리드 원칙(SOLID)
+
+1. 단일 책임 원칙(Single Responsibility Principle) => S
+- 하나의 클래스는 하나의 책임만 갖는다.
+- 클래스 하나에 2개 이상의 복합적인 요소를 섞지 않는다.
+- ex) PlayerAudio, PlayerInput, PlayerMovement를 구분한다.
+- 단일 단위로 클래스를 구분하면 가독성, 확장성, 재사용성의 이점이 있다.
+
+2. 개방 폐쇄 원칙(Open / Closed Principle) => O
+- 클래스가 확장에는 개방되어 있고 수정에는 닫혀 있어야 한다.
+- 원본 코드를 수정하지 않고 새로운 동작을 추가할 수 있어야 한다.
+- 상속을 이용하여 부모 클래스는 구조를 잡고, 자식 클래스에서는 확장하여 기능을 덧붙이는 형태로 만든다.
+
+3. 리스코프 치환 원칙(Liskov's Substitution Principle) => L
+4. 인터페이스 분리 원칙(Interface Segregation Principle) => I
+5. 의존성 역전 원칙(Dependency Inversion Principle) => D
