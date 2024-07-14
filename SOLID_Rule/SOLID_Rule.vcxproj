@@ -127,13 +127,15 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="1SingleRresponsibility.cpp" />
+    <ClCompile Include="1SingleResponsibility.cpp" />
     <ClCompile Include="2OpenClosed.cpp" />
+    <ClCompile Include="3LiskovsSubstitution.cpp" />
     <ClCompile Include="main.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="1SingleRresponsibility.h" />
+    <ClInclude Include="1SingleResponsibility.h" />
     <ClInclude Include="2OpenClosed.h" />
+    <ClInclude Include="3LiskovsSubstitution.h" />
   </ItemGroup>
   <ItemGroup>
     <Text Include="Essence.txt" />

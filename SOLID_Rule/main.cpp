@@ -1,6 +1,7 @@
 #include <iostream>
-#include "1SingleRresponsibility.h"
+#include "1SingleResponsibility.h"
 #include "2OpenClosed.h"
+#include "3LiskovsSubstitution.h"
 using namespace std;
 
 int main()
@@ -9,10 +10,11 @@ int main()
 	{
 		int input;
 		cout << "솔리드 원칙에는 다섯가지가 있습니다." << endl;
-		cout << "1. 단일 책임 원칙\n" << endl;
+		cout << "1. 단일 책임 원칙\n2. 개방 폐쇄 원칙\n3. 리스코프 치환 원칙\n4. 인터페이스 분리 원칙\n" << endl;
 
 		cout << "어떤 원칙을 실행하시겠습니까? (0을 입력시 종료됩니다.) ";
 		cin >> input;
+		cout << endl;
 
 		if (input == 0)
 		{
@@ -23,25 +25,15 @@ int main()
 		switch (input)
 		{
 		case 1:
-			cout << "1. 단일 책임 원칙을 실행합니다.\n" << endl;
-
-			PlayerInput playerInput;
-			playerInput.playerInput();
-
-			PlayerMovement playerMovement;
-			playerMovement.playerMovement();
-
-			PlayerAudio playerAudio;
-			playerAudio.playerAudio();
-
+			singleResponsibility();
 			break;
 
 		case 2:
-			cout << "2. 개방 폐쇄 원칙을 실행합니다.\n" << endl;
+			openClosed();
+			break;
 
-			Rectangle rectAngle;
-			rectAngle.calculaterArea();
-
+		case 3:
+			liskovsSubstitution();
 			break;
 
 		/*default:

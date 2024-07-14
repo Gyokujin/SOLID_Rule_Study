@@ -18,18 +18,24 @@
     <ClCompile Include="main.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="1SingleRresponsibility.cpp">
+    <ClCompile Include="1SingleResponsibility.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
     <ClCompile Include="2OpenClosed.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="3LiskovsSubstitution.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="1SingleRresponsibility.h">
+    <ClInclude Include="1SingleResponsibility.h">
       <Filter>헤더 파일</Filter>
     </ClInclude>
     <ClInclude Include="2OpenClosed.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="3LiskovsSubstitution.h">
       <Filter>헤더 파일</Filter>
     </ClInclude>
   </ItemGroup>

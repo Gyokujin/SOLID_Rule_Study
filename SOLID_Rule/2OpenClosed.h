@@ -7,19 +7,30 @@ using namespace std;
 class Shape
 {
 protected:
-	float width = 3;
-	float height = 3;
+	float width;
+	float height;
 	float area = 0;
+	virtual float calculaterArea() = 0;
 
 public:
-	virtual float calculaterArea() = 0;
+	Shape(float _width, float _height);
 };
 
 class Rectangle : public Shape
 {
+public:
+	Rectangle(float _width, float _height);
+	virtual float calculaterArea() override;
+};
+
+class Circle : public Shape
+{
 private:
-	float radius = 4;
+	float radius;
 
 public:
-	virtual float calculaterArea();
+	Circle(float _width, float _height, float _radius);
+	virtual float calculaterArea() override;
 };
+
+void openClosed();

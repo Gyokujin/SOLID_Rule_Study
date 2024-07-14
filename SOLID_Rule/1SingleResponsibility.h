@@ -19,3 +19,5 @@ class PlayerAudio
 public:
 	void playerAudio();
 };
+
+void singleResponsibility();
