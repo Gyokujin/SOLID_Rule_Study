@@ -2,6 +2,7 @@
 #include "1SingleResponsibility.h"
 #include "2OpenClosed.h"
 #include "3LiskovsSubstitution.h"
+#include "4InterfaceSegregation.h"
 using namespace std;
 
 int main()
@@ -36,9 +37,13 @@ int main()
 			liskovsSubstitution();
 			break;
 
-		/*default:
+		case 4:
+			interfaceSegregation();
+			break;
+
+		default:
 			cout << "올바른 번호를 입력해주세요.\n" << endl;
-			break;*/
+			break;
 		}
 	}
 
