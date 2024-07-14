@@ -131,6 +131,7 @@
     <ClCompile Include="2OpenClosed.cpp" />
     <ClCompile Include="3LiskovsSubstitution.cpp" />
     <ClCompile Include="4InterfaceSegregation.cpp" />
+    <ClCompile Include="5DependencyInversion.cpp" />
     <ClCompile Include="main.cpp" />
   </ItemGroup>
   <ItemGroup>
@@ -138,6 +139,7 @@
     <ClInclude Include="2OpenClosed.h" />
     <ClInclude Include="3LiskovsSubstitution.h" />
     <ClInclude Include="4InterfaceSegregation.h" />
+    <ClInclude Include="5DependencyInversion.h" />
   </ItemGroup>
   <ItemGroup>
     <Text Include="Essence.txt" />
